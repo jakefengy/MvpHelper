@@ -39,6 +39,8 @@ public class MvpEditor extends JFrame {
 
     // Print
     private PrintUtils printUtils;
+    private String packageName;
+    private String currentPath;
 
     public MvpEditor(PsiFile file, PsiClass psiClass) throws HeadlessException {
         this.currentFile = file;
@@ -47,7 +49,6 @@ public class MvpEditor extends JFrame {
         initGeneratePanel();
         initTable();
         initAction();
-        printUtils = new PrintUtils(currentFile, currentClass);
     }
 
     private void initForm() {
@@ -57,6 +58,8 @@ public class MvpEditor extends JFrame {
     }
 
     private void initGeneratePanel() {
+        packageName = ((PsiJavaFileImpl) currentFile).getPackageName();
+        currentPath = "";
         lbPackage.setText(((PsiJavaFileImpl) currentFile).getPackageName() + "." + currentFile.getName().split("\\.")[0]);
     }
 
@@ -98,11 +101,22 @@ public class MvpEditor extends JFrame {
     // Output
     private void print(JTable presenter, JTable view) {
 
-        printUtils.print(((DefaultTableModel) presenter.getModel()).getDataVector(), ((DefaultTableModel) view.getModel()).getDataVector());
-    }
+        printUtils = new PrintUtils(packageName, currentClass.getName(), currentFile.getParent().getParent());
 
-    private void println(Object msg) {
-        System.out.println(msg);
+        Vector p = ((DefaultTableModel) presenter.getModel()).getDataVector();
+        Vector v = ((DefaultTableModel) view.getModel()).getDataVector();
+
+        printUtils.print(p, v, new PrintUtils.OnPrintListener() {
+            @Override
+            public void onComplete() {
+                cancelEditor();
+            }
+
+            @Override
+            public void onFail() {
+
+            }
+        });
     }
 
 }

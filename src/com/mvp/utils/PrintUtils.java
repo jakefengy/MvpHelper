@@ -1,8 +1,8 @@
 package com.mvp.utils;
 
-import com.intellij.psi.PsiClass;
-import com.intellij.psi.PsiFile;
-import com.intellij.psi.impl.source.PsiJavaFileImpl;
+import com.intellij.psi.PsiDirectory;
+import com.intellij.psi.impl.file.PsiJavaDirectoryImpl;
+import com.intellij.util.IncorrectOperationException;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,48 +18,51 @@ public class PrintUtils {
     private String newLine = System.getProperty("line.separator");
     private String tabLine = "\t";
 
-    private String parentDir;
     private String packageName;
-    private PsiFile currentFile;
-    private PsiClass currentClass;
+    private String className;
+    private PsiDirectory directory;
 
     //
     private String contractPackageName;
     private String presenterPackageName;
 
 
-    public PrintUtils(PsiFile currentFile, PsiClass currentClass) {
-//        this.parentDir = currentFile.getParent().getParent();
-        this.packageName = ((PsiJavaFileImpl) currentFile.getParent()).getPackageName();
-        this.currentFile = currentFile;
-        this.currentClass = currentClass;
+    public PrintUtils(String packageName, String className, PsiDirectory directory) {
+        this.packageName = packageName;
+        this.className = className;
+        this.directory = directory;
         init();
     }
 
     private void init() {
-        presenterPackageName = currentFile.getParent().getParent().createSubdirectory(PACKAGE_PRESENTER).getName();
-        contractPackageName = currentFile.getParent().getParent().createSubdirectory(PACKAGE_CONTRACT).getName();
+        createFolder(directory, PACKAGE_PRESENTER);
+        createFolder(directory, PACKAGE_CONTRACT);
+
+        presenterPackageName = getPackageByFolderName(PACKAGE_PRESENTER);
+        contractPackageName = getPackageByFolderName(PACKAGE_CONTRACT);
 
     }
 
-    public void print(Vector presenter, Vector view) {
+    public void print(Vector presenter, Vector view, OnPrintListener listener) {
 
         System.out.println("===============Contract=============");
         String contract = buildContract(presenter, view);
         System.out.println(contract);
-        saveAsFileWriter("", contract);
+        saveAsFileWriter(getPathByFolderName(PACKAGE_CONTRACT), "I" + className + "Contract.java", contract);
 
         System.out.println("===============Presenter=============");
         String str = buildPresenter(presenter, view);
         System.out.println(str);
-        saveAsFileWriter("", str);
+        saveAsFileWriter(getPathByFolderName(PACKAGE_PRESENTER), className + "Presenter.java", str);
+
+        listener.onComplete();
 
     }
 
     private String buildContract(Vector presenter, Vector view) {
 
-        String str = "package " + presenterPackageName + ";" + newLine + newLine +
-                "public interface I" + currentClass.getName() + "Contract { " + newLine;
+        String str = "package " + contractPackageName + ";" + newLine + newLine +
+                "public interface I" + className + "Contract { " + newLine;
         str += buildMethod("Presenter", presenter) + newLine + newLine;
         str += buildMethod("View", view) + newLine;
         str += "}";
@@ -69,10 +72,10 @@ public class PrintUtils {
 
     private String buildPresenter(Vector presenter, Vector view) {
 
-        String contract = "I" + currentClass.getName() + "Contract";
+        String contract = "I" + className + "Contract";
 
-        String str = "package " + contractPackageName + ";" + newLine + newLine +
-                "public class " + currentClass.getName() + "Presenter extends BasePresenter implements " + contract + ".Presenter {" + newLine + newLine +
+        String str = "package " + presenterPackageName + ";" + newLine + newLine +
+                "public class " + className + "Presenter extends BasePresenter implements " + contract + ".Presenter {" + newLine + newLine +
                 tabLine + "private " + contract + ".View view;" + newLine + newLine;
         for (Object aPresenter : presenter) {
             str += buildPresenterMethod((Vector) aPresenter) + newLine + newLine;
@@ -85,7 +88,7 @@ public class PrintUtils {
 
     private String buildMethod(String parentName, Vector view) {
 
-        String str = tabLine + "interface " + parentName + " { " + newLine;
+        String str = tabLine + "interface " + parentName + (parentName.equals("Presenter") ? " extends IBaseContract.IBasePresenter " : "") + " { " + newLine;
 
         for (Object aView : view) {
             str += tabLine + tabLine + buildMethod((Vector) aView) + newLine;
@@ -109,12 +112,36 @@ public class PrintUtils {
         return str;
     }
 
+    private void createFolder(PsiDirectory directory, String folderName) {
+        if (!directory.isValid()) {
+            directory.createSubdirectory(folderName);
+        }
+    }
+
     //
-    private void saveAsFileWriter(String saveFile, String content) {
+    private String getPathByFolderName(String folderName) {
+        String path = "";
+
+        for (int i = 0; i < directory.getChildren().length; i++) {
+            if (((PsiJavaDirectoryImpl) directory.getChildren()[i]).getName().equals(folderName)) {
+                path = ((PsiJavaDirectoryImpl) directory.getChildren()[i]).getVirtualFile().getPath();
+                break;
+            }
+        }
+
+        return path;
+    }
+
+    private String getPackageByFolderName(String folderName) {
+
+        return packageName.substring(0, packageName.lastIndexOf(".")) + "." + folderName;
+    }
+
+    private void saveAsFileWriter(String saveFile, String saveName, String content) {
 
         FileWriter fwriter = null;
         try {
-            fwriter = new FileWriter(saveFile);
+            fwriter = new FileWriter(saveFile + "/" + saveName);
             fwriter.write(content);
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -126,6 +153,13 @@ public class PrintUtils {
                 ex.printStackTrace();
             }
         }
+    }
+
+    // call back
+    public interface OnPrintListener {
+        void onComplete();
+
+        void onFail();
     }
 
 }

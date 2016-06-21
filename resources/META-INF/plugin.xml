@@ -31,11 +31,6 @@
     <actions>
         <!-- Add your actions here -->
 
-        <action id="Gsonformat" class="MainAction" text="GsonFormat">
-            <add-to-group group-id="GenerateGroup" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="alt s"/>
-        </action>
-
         <action id="MvpEditor" class="com.mvp.action.MvpEditorAction" text="Mvp Editor" description="Mvp Editor~">
             <add-to-group group-id="GenerateGroup" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="alt m"/>
