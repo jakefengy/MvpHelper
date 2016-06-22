@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c5288ac-6bba-4923-adcc-d5f3f2b94b9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mvp/dialog/MvpDialog.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/mvp/dialog/MvpDialog.java" afterPath="" />
+    <list default="true" id="6c5288ac-6bba-4923-adcc-d5f3f2b94b9c" name="Default" comment="1、完成了第三版。。">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/dialog/MvpDialog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/dialog/MvpDialog$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/dialog/MvpDialog$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/dialog/MvpDialog$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/dialog/MvpDialog.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/action/HelloDialogAction.class" afterPath="$PROJECT_DIR$/out/production/MvpHelper/com/mvp/action/HelloDialogAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java" afterPath="$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MVPActivity/template.xml" afterPath="$PROJECT_DIR$/src/MVPActivity/template.xml" />
     </list>
     <ignored path="MvpHelper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,52 +31,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <file leaf-file-name="template.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MvpActivity/template.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="method#actionPerformed#0;class#HelloWorld#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloDialogAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvpEditor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MvpEditor.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -87,6 +50,7 @@
         <option value="ApplicationComponent" />
         <option value="Action" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -110,12 +74,36 @@
         <option value="$PROJECT_DIR$/src/TextBoxes.java" />
         <option value="$PROJECT_DIR$/src/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/com/mvp/action/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/com/mvp/dialog/MvpDialog.form" />
         <option value="$PROJECT_DIR$/src/com/mvp/dialog/MvpDialog.java" />
         <option value="$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java" />
-        <option value="$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.java" />
+        <option value="$PROJECT_DIR$/src/com/mvp/action/MvpEditorAction.java" />
         <option value="$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.form" />
+        <option value="$PROJECT_DIR$/src/com/mvp/utils/TableUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/mvp/utils/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/mvp/utils/PrintUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/EmptyActivity/template.xml" />
+        <option value="$PROJECT_DIR$/src/EmptyActivity/root/src/app_package/SimpleActivity.java.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/root/src/app_package/IContract.java.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/template.xml" />
+        <option value="$PROJECT_DIR$/src/Mvp/root/src/app_package/MvpActivity.java.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/root/src/app_package/Presenter.java.ftl" />
+        <option value="$PROJECT_DIR$/src/MVPActivity/root/src/app_package/layout/activity_layout.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/root/src/app_package/layout.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/MVPActivity/recipe.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/MvpFragment/root/src/app_package/classes/MvpActivity.java.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/activity_layout_recipe.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/globals.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/root/src/app_package/classes/MvpActivity.java.ftl" />
+        <option value="$PROJECT_DIR$/src/MvpFragment/template.xml" />
+        <option value="$PROJECT_DIR$/src/MvpFragment/root/src/app_package/classes/MvpFragment.java.ftl" />
+        <option value="$PROJECT_DIR$/src/MvpFragment/recipe.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/Mvp/recipe.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/MvpActivity/globals.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/MvpFragment/globals.xml.ftl" />
+        <option value="$PROJECT_DIR$/src/MvpActivity/template.xml" />
       </list>
     </option>
   </component>
@@ -132,7 +120,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -150,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,75 +169,34 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvpEditor" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvpHelper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvpHelper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvpHelper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MvpHelper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../example/PubEditor-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../example/GsonFormat-master" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ideal\IdeaProjects\MvpHelper\src\Mvp\root\src\app_package\layout" />
+      <recent name="D:\Ideal\IdeaProjects\MvpHelper\src\Mvp\root\src\app_package\classes" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Ideal\IdeaProjects\MvpHelper\src" />
+      <recent name="D:\Ideal\IdeaProjects\MvpHelper\src\Mvp" />
+      <recent name="D:\Ideal\IdeaProjects\MvpHelper\src\Mvp\root\src\app_package" />
     </key>
   </component>
   <component name="RunManager" selected="Plugin.Plugin">
@@ -589,36 +535,96 @@
       <option name="presentableId" value="Default" />
       <updated>1466046544076</updated>
     </task>
+    <task id="LOCAL-00001" summary="1、屎一样的swing">
+      <created>1466071847952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1466071847952</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1、马上就要完成了啊啊啊啊啊">
+      <created>1466417328940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466417328940</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1、马上就要完成了啊啊啊啊啊">
+      <created>1466417359084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1466417359084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1、完成了第一版。。">
+      <created>1466478024982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466478024982</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1、完成了第二版。。">
+      <created>1466501224730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1466501224730</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1、完成了第三版。。">
+      <created>1466562824218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1466562824218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1、完成了第三版。。">
+      <created>1466581449112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1466581449112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24733475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47887325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.567714" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -632,149 +638,58 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、屎一样的swing" />
+    <MESSAGE value="1、马上就要完成了啊啊啊啊啊" />
+    <MESSAGE value="1、完成了第一版。。" />
+    <MESSAGE value="1、完成了第二版。。" />
+    <MESSAGE value="1、完成了第三版。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、完成了第三版。。" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mvp/utils/PrintUtils.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="22" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+        <watch expression="directory.getChildren()" language="JAVA" custom="" />
+        <watch expression="packageName.substring(0, packageName.lastIndexOf(&quot;.&quot;))" language="JAVA" custom="" />
+        <watch expression="packageName" language="JAVA" custom="" />
+        <watch expression="packageName.substring(0, packageName.lastIndexOf(&quot;.&quot;)) + &quot;.&quot; + &quot;presenter&quot;" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/actionSystem/CommonDataKeys.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/MvpEditorAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="513">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding>
-            <element signature="method#actionPerformed#0;class#HelloWorld#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="method#actionPerformed#0;class#HelloWorld#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/test/HelloWorldAction.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/component/Test.java" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/module/ModuleComponent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/ui/Messages.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="313" column="13" selection-start-line="313" selection-start-column="13" selection-end-line="313" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/dialog/MyShowDialog.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/dialog/MyShowDialog.form" />
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/test/HelloWorldAction.java" />
-    <entry file="file://$PROJECT_DIR$/src/MvpAction.java" />
-    <entry file="file://$PROJECT_DIR$/src/MvpComponent.java" />
-    <entry file="file://$PROJECT_DIR$/src/SayHelloAction.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="method#actionPerformed#0;class#HelloWorld#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_20/src.zip!/java/awt/Dialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="1027" column="15" selection-start-line="1027" selection-start-column="15" selection-end-line="1027" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/dialog/MvpDialog.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/dialog/MvpDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloDialogAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,13 +698,1270 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mvp/action/HelloWorld.java">
+    <entry file="jar://C:/Java/jdk1.8.0_20/src.zip!/javax/swing/JTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="279">
+          <caret line="2235" column="4" selection-start-line="2235" selection-start-column="4" selection-end-line="2235" selection-end-column="4" />
           <folding>
-            <element signature="method#actionPerformed#0;class#HelloWorld#0" expanded="false" />
+            <element signature="docComment;class#JTable#0" expanded="false" />
+            <element signature="e#9336#9338#0" expanded="false" />
+            <element signature="docComment;field#uiClassID#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#AUTO_RESIZE_OFF#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#AUTO_RESIZE_NEXT_COLUMN#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#AUTO_RESIZE_SUBSEQUENT_COLUMNS#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#AUTO_RESIZE_LAST_COLUMN#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#AUTO_RESIZE_ALL_COLUMNS#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#PrintMode#0;class#JTable#0" expanded="false" />
+            <element signature="class#PrintMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#NORMAL#0;class#PrintMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#FIT_WIDTH#0;class#PrintMode#0;class#JTable#0" expanded="false" />
+            <element signature="e#11004#11006#0" expanded="false" />
+            <element signature="docComment;field#dataModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#columnModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#selectionModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#tableHeader#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#rowHeight#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#rowMargin#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#gridColor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#showHorizontalLines#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#showVerticalLines#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#autoResizeMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#autoCreateColumnsFromModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#preferredViewportSize#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#rowSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#cellSelectionEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#editorComp#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#cellEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#editingColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#editingRow#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#defaultRenderersByColumnClass#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#defaultEditorsByColumnClass#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#selectionForeground#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#selectionBackground#0;class#JTable#0" expanded="false" />
+            <element signature="e#14711#14713#0" expanded="false" />
+            <element signature="docComment;field#columnSelectionAdjusting#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#rowSelectionAdjusting#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#printError#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#isRowHeightSet#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#updateSelectionOnSort#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#sortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#ignoreSortChange#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#sorterChanged#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#autoCreateRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#fillsViewportHeight#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#dropMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#dropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="method#DropLocation#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRow#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumn#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isInsertRow#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isInsertColumn#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#toString#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="method#toString#0;class#DropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="e#20096#20098#0" expanded="false" />
+            <element signature="docComment;method#JTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#JTable#2;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#JTable#3;class#JTable#0" expanded="false" />
+            <element signature="method#JTable#3;class#JTable#0" expanded="false" />
+            <element signature="e#22935#23003#0" expanded="false" />
+            <element signature="docComment;method#JTable#4;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#JTable#5;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#JTable#6;class#JTable#0" expanded="false" />
+            <element signature="method#JTable#6;class#JTable#0" expanded="false" />
+            <element signature="class#25252:25853" expanded="false" />
+            <element signature="method#getColumnName#0;class#25252:25853" expanded="false" />
+            <element signature="method#getRowCount#0;class#25252:25853" expanded="false" />
+            <element signature="method#getColumnCount#0;class#25252:25853" expanded="false" />
+            <element signature="method#getValueAt#0;class#25252:25853" expanded="false" />
+            <element signature="method#isCellEditable#0;class#25252:25853" expanded="false" />
+            <element signature="method#setValueAt#0;class#25252:25853" expanded="false" />
+            <element signature="docComment;method#addNotify#0;class#JTable#0" expanded="false" />
+            <element signature="method#addNotify#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#configureEnclosingScrollPane#0;class#JTable#0" expanded="false" />
+            <element signature="method#configureEnclosingScrollPane#0;class#JTable#0" expanded="false" />
+            <element signature="e#27286#27341#0" expanded="false" />
+            <element signature="docComment;method#configureEnclosingScrollPaneUI#0;class#JTable#0" expanded="false" />
+            <element signature="method#configureEnclosingScrollPaneUI#0;class#JTable#0" expanded="false" />
+            <element signature="e#29063#29118#0" expanded="false" />
+            <element signature="docComment;method#removeNotify#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeNotify#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#unconfigureEnclosingScrollPane#0;class#JTable#0" expanded="false" />
+            <element signature="method#unconfigureEnclosingScrollPane#0;class#JTable#0" expanded="false" />
+            <element signature="e#32005#32060#0" expanded="false" />
+            <element signature="method#setUIProperty#0;class#JTable#0" expanded="false" />
+            <element signature="e#33209#33211#0" expanded="false" />
+            <element signature="docComment;method#createScrollPaneForTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#33554#33556#0" expanded="false" />
+            <element signature="docComment;method#setTableHeader#0;class#JTable#0" expanded="false" />
+            <element signature="method#setTableHeader#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getTableHeader#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setRowHeight#0;class#JTable#0" expanded="false" />
+            <element signature="method#setRowHeight#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRowHeight#0;class#JTable#0" expanded="false" />
+            <element signature="method#getRowModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setRowHeight#1;class#JTable#0" expanded="false" />
+            <element signature="method#setRowHeight#1;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRowHeight#1;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setRowMargin#0;class#JTable#0" expanded="false" />
+            <element signature="method#setRowMargin#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRowMargin#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setIntercellSpacing#0;class#JTable#0" expanded="false" />
+            <element signature="method#setIntercellSpacing#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getIntercellSpacing#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setGridColor#0;class#JTable#0" expanded="false" />
+            <element signature="method#setGridColor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getGridColor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setShowGrid#0;class#JTable#0" expanded="false" />
+            <element signature="method#setShowGrid#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setShowHorizontalLines#0;class#JTable#0" expanded="false" />
+            <element signature="method#setShowHorizontalLines#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setShowVerticalLines#0;class#JTable#0" expanded="false" />
+            <element signature="method#setShowVerticalLines#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getShowHorizontalLines#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getShowVerticalLines#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAutoResizeMode#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAutoResizeMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAutoResizeMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAutoCreateColumnsFromModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAutoCreateColumnsFromModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAutoCreateColumnsFromModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#createDefaultColumnsFromModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#createDefaultColumnsFromModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setDefaultRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#setDefaultRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getDefaultRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#getDefaultRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setDefaultEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#setDefaultEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getDefaultEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#getDefaultEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setDragEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="method#setDragEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getDragEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setDropMode#0;class#JTable#0" expanded="false" />
+            <element signature="method#setDropMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getDropMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#dropLocationForPoint#0;class#JTable#0" expanded="false" />
+            <element signature="method#dropLocationForPoint#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setDropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="method#setDropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getDropLocation#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAutoCreateRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAutoCreateRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAutoCreateRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setUpdateSelectionOnSort#0;class#JTable#0" expanded="false" />
+            <element signature="method#setUpdateSelectionOnSort#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getUpdateSelectionOnSort#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="method#setRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRowSorter#0;class#JTable#0" expanded="false" />
+            <element signature="e#74287#74289#0" expanded="false" />
+            <element signature="docComment;method#setSelectionMode#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSelectionMode#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setRowSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="method#setRowSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRowSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setColumnSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="method#setColumnSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumnSelectionAllowed#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setCellSelectionEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="method#setCellSelectionEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCellSelectionEnabled#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#selectAll#0;class#JTable#0" expanded="false" />
+            <element signature="method#selectAll#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#clearSelection#0;class#JTable#0" expanded="false" />
+            <element signature="method#clearSelection#0;class#JTable#0" expanded="false" />
+            <element signature="method#clearSelectionAndLeadAnchor#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAdjustedIndex#0;class#JTable#0" expanded="false" />
+            <element signature="method#boundRow#0;class#JTable#0" expanded="false" />
+            <element signature="method#boundColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setRowSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="method#setRowSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setColumnSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="method#setColumnSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#addRowSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="method#addRowSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#addColumnSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="method#addColumnSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removeRowSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeRowSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removeColumnSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeColumnSelectionInterval#0;class#JTable#0" expanded="false" />
+            <element signature="e#86354#86355#0" expanded="true" />
+            <element signature="e#86414#86415#0" expanded="true" />
+            <element signature="docComment;method#getSelectedColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedRows#0;class#JTable#0" expanded="false" />
+            <element signature="method#getSelectedRows#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedColumns#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedRowCount#0;class#JTable#0" expanded="false" />
+            <element signature="method#getSelectedRowCount#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedColumnCount#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isRowSelected#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isColumnSelected#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isCellSelected#0;class#JTable#0" expanded="false" />
+            <element signature="method#isCellSelected#0;class#JTable#0" expanded="false" />
+            <element signature="method#changeSelectionModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#changeSelection#0;class#JTable#0" expanded="false" />
+            <element signature="method#changeSelection#0;class#JTable#0" expanded="false" />
+            <element signature="e#93980#94044#0" expanded="false" />
+            <element signature="e#94883#94953#0" expanded="false" />
+            <element signature="docComment;method#getSelectionForeground#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setSelectionForeground#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSelectionForeground#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectionBackground#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setSelectionBackground#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSelectionBackground#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumn#0;class#JTable#0" expanded="false" />
+            <element signature="method#getColumn#0;class#JTable#0" expanded="false" />
+            <element signature="e#98789#98791#0" expanded="false" />
+            <element signature="docComment;method#convertColumnIndexToModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#convertColumnIndexToModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#convertColumnIndexToView#0;class#JTable#0" expanded="false" />
+            <element signature="method#convertColumnIndexToView#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#convertRowIndexToView#0;class#JTable#0" expanded="false" />
+            <element signature="method#convertRowIndexToView#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#convertRowIndexToModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#convertRowIndexToModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getRowCount#0;class#JTable#0" expanded="false" />
+            <element signature="method#getRowCount#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumnCount#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumnName#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumnClass#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getValueAt#0;class#JTable#0" expanded="false" />
+            <element signature="method#getValueAt#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setValueAt#0;class#JTable#0" expanded="false" />
+            <element signature="method#setValueAt#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isCellEditable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isCellEditable#0;class#JTable#0" expanded="false" />
+            <element signature="e#107054#107056#0" expanded="false" />
+            <element signature="docComment;method#addColumn#0;class#JTable#0" expanded="false" />
+            <element signature="method#addColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removeColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#moveColumn#0;class#JTable#0" expanded="false" />
+            <element signature="e#109678#109680#0" expanded="false" />
+            <element signature="docComment;method#columnAtPoint#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnAtPoint#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#rowAtPoint#0;class#JTable#0" expanded="false" />
+            <element signature="method#rowAtPoint#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCellRect#0;class#JTable#0" expanded="false" />
+            <element signature="method#getCellRect#0;class#JTable#0" expanded="false" />
+            <element signature="e#115261#115323#0" expanded="false" />
+            <element signature="method#viewIndexForColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#doLayout#0;class#JTable#0" expanded="false" />
+            <element signature="method#doLayout#0;class#JTable#0" expanded="false" />
+            <element signature="e#122635#122696#0" expanded="false" />
+            <element signature="e#123252#123310#0" expanded="false" />
+            <element signature="e#124099#124163#0" expanded="false" />
+            <element signature="method#getResizingColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#sizeColumnsToFit#0;class#JTable#0" expanded="false" />
+            <element signature="method#sizeColumnsToFit#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#sizeColumnsToFit#1;class#JTable#0" expanded="false" />
+            <element signature="method#sizeColumnsToFit#1;class#JTable#0" expanded="false" />
+            <element signature="method#setWidthsFromPreferredWidths#0;class#JTable#0" expanded="false" />
+            <element signature="class#126497:127312" expanded="false" />
+            <element signature="method#getElementCount#0;class#126497:127312" expanded="false" />
+            <element signature="method#getLowerBoundAt#0;class#126497:127312" expanded="false" />
+            <element signature="method#getUpperBoundAt#0;class#126497:127312" expanded="false" />
+            <element signature="method#getMidPointAt#0;class#126497:127312" expanded="false" />
+            <element signature="method#setSizeAt#0;class#126497:127312" expanded="false" />
+            <element signature="method#accommodateDelta#0;class#JTable#0" expanded="false" />
+            <element signature="class#128389:128862" expanded="false" />
+            <element signature="method#getElementCount#0;class#128389:128862" expanded="false" />
+            <element signature="method#getLowerBoundAt#0;class#128389:128862" expanded="false" />
+            <element signature="method#getUpperBoundAt#0;class#128389:128862" expanded="false" />
+            <element signature="method#getMidPointAt#0;class#128389:128862" expanded="false" />
+            <element signature="method#setSizeAt#0;class#128389:128862" expanded="false" />
+            <element signature="class#Resizable2#0;class#JTable#0" expanded="false" />
+            <element signature="class#Resizable3#0;class#JTable#0" expanded="false" />
+            <element signature="method#adjustSizes#0;class#JTable#0" expanded="false" />
+            <element signature="class#129819:130184" expanded="false" />
+            <element signature="method#getElementCount#0;class#129819:130184" expanded="false" />
+            <element signature="method#getLowerBoundAt#0;class#129819:130184" expanded="false" />
+            <element signature="method#getUpperBoundAt#0;class#129819:130184" expanded="false" />
+            <element signature="method#setSizeAt#0;class#129819:130184" expanded="false" />
+            <element signature="class#130231:130596" expanded="false" />
+            <element signature="method#getElementCount#0;class#130231:130596" expanded="false" />
+            <element signature="method#getLowerBoundAt#0;class#130231:130596" expanded="false" />
+            <element signature="method#getUpperBoundAt#0;class#130231:130596" expanded="false" />
+            <element signature="method#setSizeAt#0;class#130231:130596" expanded="false" />
+            <element signature="method#adjustSizes#1;class#JTable#0" expanded="false" />
+            <element signature="e#131268#131334#0" expanded="false" />
+            <element signature="e#131841#131898#0" expanded="false" />
+            <element signature="docComment;method#getToolTipText#0;class#JTable#0" expanded="false" />
+            <element signature="method#getToolTipText#0;class#JTable#0" expanded="false" />
+            <element signature="e#133475#133533#0" expanded="false" />
+            <element signature="e#134604#134606#0" expanded="false" />
+            <element signature="docComment;method#setSurrendersFocusOnKeystroke#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSurrendersFocusOnKeystroke#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSurrendersFocusOnKeystroke#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#editCellAt#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#editCellAt#1;class#JTable#0" expanded="false" />
+            <element signature="method#editCellAt#1;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isEditing#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getEditorComponent#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getEditingColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getEditingRow#0;class#JTable#0" expanded="false" />
+            <element signature="e#139967#139969#0" expanded="false" />
+            <element signature="docComment;method#getUI#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setUI#0;class#JTable#0" expanded="false" />
+            <element signature="method#setUI#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#updateUI#0;class#JTable#0" expanded="false" />
+            <element signature="method#updateUI#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getUIClassID#0;class#JTable#0" expanded="false" />
+            <element signature="e#142664#142666#0" expanded="false" />
+            <element signature="docComment;method#setModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#setModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setColumnModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#setColumnModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getColumnModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setSelectionModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSelectionModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectionModel#0;class#JTable#0" expanded="false" />
+            <element signature="e#147320#147322#0" expanded="false" />
+            <element signature="docComment;method#sorterChanged#0;class#JTable#0" expanded="false" />
+            <element signature="method#sorterChanged#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#SortManager#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#dispose#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#dispose#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setViewRowHeight#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#setViewRowHeight#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#allChanged#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#allChanged#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#viewSelectionChanged#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#viewSelectionChanged#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#prepareForChange#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#prepareForChange#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#cacheSelection#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#cacheSelection#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="e#151132#151194#0" expanded="false" />
+            <element signature="e#152736#152789#0" expanded="false" />
+            <element signature="e#153883#153937#0" expanded="false" />
+            <element signature="method#cacheModelSelection#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#processChange#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#processChange#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setViewRowHeightsFromModel#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#setViewRowHeightsFromModel#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#restoreSelection#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="method#restoreSelection#0;class#SortManager#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#ModelChange#0;class#JTable#0" expanded="false" />
+            <element signature="class#ModelChange#0;class#JTable#0" expanded="false" />
+            <element signature="method#ModelChange#0;class#ModelChange#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#sortedTableChanged#0;class#JTable#0" expanded="false" />
+            <element signature="method#sortedTableChanged#0;class#JTable#0" expanded="false" />
+            <element signature="e#160507#160561#0" expanded="false" />
+            <element signature="docComment;method#repaintSortedRows#0;class#JTable#0" expanded="false" />
+            <element signature="method#repaintSortedRows#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#restoreSortingSelection#0;class#JTable#0" expanded="false" />
+            <element signature="method#restoreSortingSelection#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#restoreSortingEditingRow#0;class#JTable#0" expanded="false" />
+            <element signature="method#restoreSortingEditingRow#0;class#JTable#0" expanded="false" />
+            <element signature="e#164712#164757#0" expanded="false" />
+            <element signature="docComment;method#notifySorter#0;class#JTable#0" expanded="false" />
+            <element signature="method#notifySorter#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#convertRowIndexToView#1;class#JTable#0" expanded="false" />
+            <element signature="method#convertRowIndexToView#1;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#convertSelectionToModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#convertSelectionToModel#0;class#JTable#0" expanded="false" />
+            <element signature="method#convertRowIndexToModel#1;class#JTable#0" expanded="false" />
+            <element signature="e#168889#168891#0" expanded="false" />
+            <element signature="docComment;method#tableChanged#0;class#JTable#0" expanded="false" />
+            <element signature="method#tableChanged#0;class#JTable#0" expanded="false" />
+            <element signature="e#170473#170532#0" expanded="false" />
+            <element signature="e#171403#171444#0" expanded="false" />
+            <element signature="e#171851#171928#0" expanded="false" />
+            <element signature="e#172211#172283#0" expanded="false" />
+            <element signature="method#tableRowsInserted#0;class#JTable#0" expanded="false" />
+            <element signature="e#173606#173676#0" expanded="false" />
+            <element signature="method#tableRowsDeleted#0;class#JTable#0" expanded="false" />
+            <element signature="e#174972#175042#0" expanded="false" />
+            <element signature="e#175160#175162#0" expanded="false" />
+            <element signature="docComment;method#columnAdded#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnAdded#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#columnRemoved#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnRemoved#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#columnMoved#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnMoved#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#columnMarginChanged#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnMarginChanged#0;class#JTable#0" expanded="false" />
+            <element signature="e#177305#177349#0" expanded="false" />
+            <element signature="docComment;method#columnSelectionChanged#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnSelectionChanged#0;class#JTable#0" expanded="false" />
+            <element signature="e#178187#178250#0" expanded="false" />
+            <element signature="e#179445#179500#0" expanded="false" />
+            <element signature="e#180096#180098#0" expanded="false" />
+            <element signature="docComment;method#valueChanged#0;class#JTable#0" expanded="false" />
+            <element signature="method#valueChanged#0;class#JTable#0" expanded="false" />
+            <element signature="e#180721#180784#0" expanded="false" />
+            <element signature="e#181594#181596#0" expanded="false" />
+            <element signature="docComment;method#editingStopped#0;class#JTable#0" expanded="false" />
+            <element signature="method#editingStopped#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#editingCanceled#0;class#JTable#0" expanded="false" />
+            <element signature="e#182681#182683#0" expanded="false" />
+            <element signature="docComment;method#setPreferredScrollableViewportSize#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getPreferredScrollableViewportSize#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getScrollableUnitIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="method#getScrollableUnitIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="e#185157#185225#0" expanded="false" />
+            <element signature="e#185794#185805#0" expanded="false" />
+            <element signature="e#186129#186153#0" expanded="false" />
+            <element signature="e#186719#186732#0" expanded="false" />
+            <element signature="e#187233#187268#0" expanded="false" />
+            <element signature="docComment;method#getScrollableBlockIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="method#getScrollableBlockIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getPreviousBlockIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="method#getPreviousBlockIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="e#189919#189960#0" expanded="false" />
+            <element signature="e#190345#190413#0" expanded="false" />
+            <element signature="e#191197#191269#0" expanded="false" />
+            <element signature="e#191971#192037#0" expanded="false" />
+            <element signature="docComment;method#getNextBlockIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="method#getNextBlockIncrement#0;class#JTable#0" expanded="false" />
+            <element signature="e#193650#193716#0" expanded="false" />
+            <element signature="e#194097#194162#0" expanded="false" />
+            <element signature="e#195287#195354#0" expanded="false" />
+            <element signature="e#195573#195632#0" expanded="false" />
+            <element signature="e#195795#195860#0" expanded="false" />
+            <element signature="method#getLeadingRow#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLeadingCol#0;class#JTable#0" expanded="false" />
+            <element signature="method#getTrailingRow#0;class#JTable#0" expanded="false" />
+            <element signature="method#getTrailingCol#0;class#JTable#0" expanded="false" />
+            <element signature="method#leadingEdge#0;class#JTable#0" expanded="false" />
+            <element signature="method#trailingEdge#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getScrollableTracksViewportWidth#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getScrollableTracksViewportHeight#0;class#JTable#0" expanded="false" />
+            <element signature="method#getScrollableTracksViewportHeight#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setFillsViewportHeight#0;class#JTable#0" expanded="false" />
+            <element signature="method#setFillsViewportHeight#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getFillsViewportHeight#0;class#JTable#0" expanded="false" />
+            <element signature="e#202417#202419#0" expanded="false" />
+            <element signature="method#processKeyBinding#0;class#JTable#0" expanded="false" />
+            <element signature="e#202673#202747#0" expanded="false" />
+            <element signature="e#204587#204642#0" expanded="false" />
+            <element signature="docComment;method#createDefaultRenderers#0;class#JTable#0" expanded="false" />
+            <element signature="method#createDefaultRenderers#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#NumberRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="class#NumberRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#NumberRenderer#0;class#NumberRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="class#DoubleRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#DoubleRenderer#0;class#DoubleRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#setValue#0;class#DoubleRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="class#DateRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#DateRenderer#0;class#DateRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#setValue#0;class#DateRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="class#IconRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#IconRenderer#0;class#IconRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#setValue#0;class#IconRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="class#BooleanRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#BooleanRenderer#0;class#BooleanRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#getTableCellRendererComponent#0;class#BooleanRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#createDefaultEditors#0;class#JTable#0" expanded="false" />
+            <element signature="method#createDefaultEditors#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#GenericEditor#0;class#JTable#0" expanded="false" />
+            <element signature="class#GenericEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#GenericEditor#0;class#GenericEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#stopCellEditing#0;class#GenericEditor#0;class#JTable#0" expanded="false" />
+            <element signature="e#209826#209875#0" expanded="false" />
+            <element signature="method#getTableCellEditorComponent#0;class#GenericEditor#0;class#JTable#0" expanded="false" />
+            <element signature="e#211246#211300#0" expanded="false" />
+            <element signature="class#NumberEditor#0;class#JTable#0" expanded="false" />
+            <element signature="class#BooleanEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#BooleanEditor#0;class#BooleanEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#initializeLocalVars#0;class#JTable#0" expanded="false" />
+            <element signature="method#initializeLocalVars#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#createDefaultDataModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#createDefaultColumnModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#createDefaultSelectionModel#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#createDefaultTableHeader#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#resizeAndRepaint#0;class#JTable#0" expanded="false" />
+            <element signature="method#resizeAndRepaint#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCellEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setCellEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#setCellEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setEditingColumn#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setEditingRow#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCellRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#getCellRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#prepareRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="method#prepareRenderer#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCellEditor#1;class#JTable#0" expanded="false" />
+            <element signature="method#getCellEditor#1;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#prepareEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#prepareEditor#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removeEditor#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeEditor#0;class#JTable#0" expanded="false" />
+            <element signature="e#224076#224078#0" expanded="false" />
+            <element signature="docComment;method#writeObject#0;class#JTable#0" expanded="false" />
+            <element signature="method#writeObject#0;class#JTable#0" expanded="false" />
+            <element signature="method#readObject#0;class#JTable#0" expanded="false" />
+            <element signature="e#224933#224993#0" expanded="false" />
+            <element signature="method#compWriteObjectNotify#0;class#JTable#0" expanded="false" />
+            <element signature="e#225443#225503#0" expanded="false" />
+            <element signature="docComment;method#paramString#0;class#JTable#0" expanded="false" />
+            <element signature="method#paramString#0;class#JTable#0" expanded="false" />
+            <element signature="n#!!doc;n#CellEditorRemover#0;n#JTable#0" expanded="false" />
+            <element signature="class#CellEditorRemover#0;class#JTable#0" expanded="false" />
+            <element signature="method#propertyChange#0;class#CellEditorRemover#0;class#JTable#0" expanded="false" />
+            <element signature="e#230381#230398#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#JTable#0" expanded="false" />
+            <element signature="method#print#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#print#1;class#JTable#0" expanded="false" />
+            <element signature="method#print#1;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#print#2;class#JTable#0" expanded="false" />
+            <element signature="method#print#2;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#print#3;class#JTable#0" expanded="false" />
+            <element signature="method#print#3;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#print#4;class#JTable#0" expanded="false" />
+            <element signature="method#print#4;class#JTable#0" expanded="false" />
+            <element signature="e#242671#242691#0" expanded="false" />
+            <element signature="e#244745#244793#0" expanded="false" />
+            <element signature="class#244881:245399" expanded="false" />
+            <element signature="method#run#0;class#244881:245399" expanded="false" />
+            <element signature="e#245826#245888#0" expanded="false" />
+            <element signature="docComment;method#getPrintable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getPrintable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#printDelegate#0;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#retVal#0;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;field#retThrowable#0;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#ThreadSafePrintable#0;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#print#0;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="method#print#0;class#ThreadSafePrintable#0;class#JTable#0" expanded="false" />
+            <element signature="class#254244:254841" expanded="false" />
+            <element signature="method#run#0;class#254244:254841" expanded="false" />
+            <element signature="e#256136#256153#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleContext#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleContext#0;class#JTable#0" expanded="false" />
+            <element signature="e#256742#256744#0" expanded="false" />
+            <element signature="docComment;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#AccessibleJTable#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#AccessibleJTable#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#258710#258779#0" expanded="false" />
+            <element signature="docComment;method#propertyChange#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#propertyChange#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#261026#261057#0" expanded="false" />
+            <element signature="class#AccessibleJTableModelChange#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#AccessibleJTableModelChange#0;class#AccessibleJTableModelChange#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#tableChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#tableChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#264185#264243#0" expanded="false" />
+            <element signature="docComment;method#tableRowsInserted#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#tableRowsInserted#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#265096#265154#0" expanded="false" />
+            <element signature="docComment;method#tableRowsDeleted#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#tableRowsDeleted#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#266198#266256#0" expanded="false" />
+            <element signature="docComment;method#columnAdded#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnAdded#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#267305#267363#0" expanded="false" />
+            <element signature="docComment;method#columnRemoved#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnRemoved#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#268201#268259#0" expanded="false" />
+            <element signature="docComment;method#columnMoved#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnMoved#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#269134#269191#0" expanded="false" />
+            <element signature="docComment;method#columnMarginChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnMarginChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#columnSelectionChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#columnSelectionChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#editingStopped#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#editingStopped#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#271226#271291#0" expanded="false" />
+            <element signature="docComment;method#editingCanceled#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#editingCanceled#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#valueChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#valueChanged#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#272083#272156#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRole#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleAt#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAt#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleChildrenCount#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleChild#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleChild#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#276018#276072#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSelectionCount#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleSelectionCount#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSelection#1;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleSelection#1;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#280008#280021#0" expanded="false" />
+            <element signature="e#283453#283505#0" expanded="false" />
+            <element signature="e#283980#283991#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleChildSelected#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isAccessibleChildSelected#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#addAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#addAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removeAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#clearAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#selectAllAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#selectAllAccessibleSelection#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRow#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumn#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleIndex#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#289015#289076#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleTable#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleCaption#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleCaption#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleCaption#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSummary#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleSummary#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleSummary#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAt#1;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowExtentAt#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnExtentAt#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleRowHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleRowHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleColumnHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#AccessibleTableHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleCaption#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleCaption#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleCaption#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSummary#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleSummary#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleSummary#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowCount#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowCount#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnCount#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleAt#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAt#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowExtentAt#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowExtentAt#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnExtentAt#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleColumnExtentAt#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleRowHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleColumnHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleColumnHeader#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowDescription#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowDescription#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleRowDescription#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnDescription#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleColumnDescription#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleColumnDescription#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleSelected#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isAccessibleSelected#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleRowSelected#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isAccessibleRowSelected#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleColumnSelected#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isAccessibleColumnSelected#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedAccessibleRows#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getSelectedAccessibleRows#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedAccessibleColumns#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getSelectedAccessibleColumns#0;class#AccessibleTableHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleColumnHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleColumnHeader#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleRowDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleRowDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleColumnDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleColumnDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleColumnDescription#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleSelected#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleRowSelected#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isAccessibleColumnSelected#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedAccessibleRows#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSelectedAccessibleColumns#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRowAtIndex#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRowAtIndex#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleColumnAtIndex#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleColumnAtIndex#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleIndexAt#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#AccessibleJTableCell#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#AccessibleJTableCell#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleContext#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCurrentAccessibleContext#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getCurrentAccessibleContext#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCurrentComponent#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getCurrentComponent#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleName#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleName#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleName#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleName#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#313610#313612#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleDescription#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleDescription#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleDescription#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleDescription#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRole#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRole#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleStateSet#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleStateSet#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleParent#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleIndexInParent#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleChildrenCount#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleChildrenCount#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleChild#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleChild#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getLocale#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLocale#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#addPropertyChangeListener#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#addPropertyChangeListener#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removePropertyChangeListener#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#removePropertyChangeListener#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleAction#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAction#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleComponent#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSelection#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleSelection#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleText#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleValue#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getBackground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getBackground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setBackground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setBackground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getForeground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getForeground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setForeground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setForeground#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCursor#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getCursor#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setCursor#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setCursor#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getFont#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getFont#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setFont#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setFont#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getFontMetrics#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getFontMetrics#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isEnabled#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isEnabled#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setEnabled#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setEnabled#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isVisible#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isVisible#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setVisible#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setVisible#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isShowing#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isShowing#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#333870#333921#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#contains#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getLocationOnScreen#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLocationOnScreen#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getLocation#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLocation#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setLocation#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setLocation#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#337227#337291#0" expanded="false" />
+            <element signature="method#getBounds#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setBounds#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getSize#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSize#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAt#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isFocusTraversable#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#requestFocus#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#addFocusListener#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeFocusListener#0;class#AccessibleJTableCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#AccessibleJTableHeaderCell#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#AccessibleJTableHeaderCell#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleContext#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleName#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleName#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleName#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleName#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleDescription#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleDescription#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setAccessibleDescription#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setAccessibleDescription#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleRole#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleRole#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleStateSet#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleStateSet#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleParent#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleIndexInParent#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleChildrenCount#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleChildrenCount#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleChild#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleChild#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getLocale#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLocale#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#addPropertyChangeListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#addPropertyChangeListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removePropertyChangeListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#removePropertyChangeListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleAction#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAction#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleComponent#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleSelection#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleSelection#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleText#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleValue#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getBackground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getBackground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setBackground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setBackground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getForeground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getForeground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setForeground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setForeground#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getCursor#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getCursor#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setCursor#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setCursor#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getFont#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getFont#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setFont#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setFont#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getFontMetrics#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getFontMetrics#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isEnabled#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isEnabled#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setEnabled#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setEnabled#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isVisible#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isVisible#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setVisible#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setVisible#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isShowing#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isShowing#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="e#364907#364958#0" expanded="false" />
+            <element signature="docComment;method#contains#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#contains#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getLocationOnScreen#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLocationOnScreen#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getLocation#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getLocation#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setLocation#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setLocation#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getBounds#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getBounds#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setBounds#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setBounds#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getSize#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getSize#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#setSize#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#setSize#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#getAccessibleAt#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#getAccessibleAt#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#isFocusTraversable#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#isFocusTraversable#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#requestFocus#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#requestFocus#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#addFocusListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#addFocusListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="docComment;method#removeFocusListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
+            <element signature="method#removeFocusListener#0;class#AccessibleJTableHeaderCell#0;class#AccessibleJTable#0;class#JTable#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_20/src.zip!/javax/swing/table/DefaultTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="e#6191#6192#0" expanded="false" />
+            <element signature="e#6224#6225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_20/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="732" column="6" selection-start-line="732" selection-start-column="6" selection-end-line="732" selection-end-column="6" />
+          <folding>
+            <element signature="e#27935#27936#0" expanded="true" />
+            <element signature="e#27980#27981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mvp/utils/TableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/lang/ASTNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/tree/IElementType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiFileSystemItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mvp/utils/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_20/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1292" column="43" selection-start-line="1292" selection-start-column="43" selection-end-line="1292" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_20/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="635" column="66" selection-start-line="635" selection-start-column="52" selection-end-line="635" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/openapi/keymap/impl/IdeKeyEventDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="254" column="49" selection-start-line="254" selection-start-column="49" selection-end-line="254" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/psi/impl/file/PsiDirectoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/ide/IdeEventQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="768" column="5" selection-start-line="768" selection-start-column="5" selection-end-line="768" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiDirectory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
+          <folding>
+            <element signature="e#1231#1408#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mvp/utils/PrintUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="method#PrintUtils#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#init#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#buildContract#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#buildPresenter#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#buildMethod#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#buildPresenterMethod#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#createFolder#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#getPathByFolderName#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#getPackageByFolderName#0;class#PrintUtils#0" expanded="false" />
+            <element signature="method#saveAsFileWriter#0;class#PrintUtils#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mvp/gui/MvpEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="method#initForm#0;class#MvpEditor#0" expanded="false" />
+            <element signature="method#initAction#0;class#MvpEditor#0" expanded="false" />
+            <element signature="method#initTable#0;class#MvpEditor#0" expanded="false" />
+            <element signature="e#3095#3096#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyActivity/template_blank_activity.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mvp/app_package/SimpleActivity.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/root/src/app_package/layout/layout.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/root/src/app_package/classes/IContract.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/root/src/app_package/classes/Presenter.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/root/src/app_package/layout/layout.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/root/src/app_package/classes/IContract.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/root/src/app_package/layout/fragment_layout.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVPActivity/root/src/app_package/classes/Fragment.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVPActivity/fragment_layout_recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mvp/activity_layout_recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/root/src/app_package/classes/Activity.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVPActivity/root/src/app_package/layout/activity_layout.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVPActivity/activity_layout_recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/root/src/app_package/classes/Activity.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/root/src/app_package/classes/MvpFragment.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/globals.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyActivity/root/src/app_package/SimpleActivity.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyActivity/template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyActivity/recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyActivity/globals.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/globals.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/recipe.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpFragment/globals.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MvpActivity/template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
