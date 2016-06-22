@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <recipe>
-    <#include "../common/recipe_manifest.xml.ftl" />
 
     <instantiate from="root/src/app_package/layout/layout.xml.ftl"
                          to="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
 
-    <instantiate from="root/src/app_package/classes/MvpActivity.java.ftl"
+    <instantiate from="root/src/app_package/classes/MvpFragment.java.ftl"
                    to="${escapeXmlAttribute(srcOut)}/view/${fragmentClass}.java" />
 
     <instantiate from="root/src/app_package/classes/IContract.java.ftl"

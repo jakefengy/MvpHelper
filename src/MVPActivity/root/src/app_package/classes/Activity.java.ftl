@@ -1,43 +1,45 @@
-package ${packageName}.view.impl;
+package ${packageName}.view;
 
+import ${superClassFqcn};
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import android.content.Context;
+import android.content.Intent;
 
-import ${packageName}.R;
-import ${packageName}.view.${viewClass};
-import ${packageName}.presenter.BasePresenter;
+import ${packageName}.contract.${contractClass};
 import ${packageName}.presenter.${presenterClass};
-import ${packageName}.injection.AppComponent;
-import ${packageName}.injection.${moduleClass};
-import ${packageName}.injection.Dagger${componentClass};
 
-import javax.inject.Inject;
+public class ${activityClass} extends ${superClass} implements ${contractClass}.View {
 
-public final class ${activityClass} extends BaseActivity implements ${viewClass}
-{
-    @Inject 
-    ${presenterClass} mPresenter;
+    private ${contractClass}.Presenter presenter;
+
+    public static Intent getIntent(Context ctx){
+        Intent intent = new Intent(ctx, ${activityClass}.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        return intent;
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.${layoutName});
+
+        initView();
+        initData();
+
+    }
+
+    private void initView(){
+
+    }
+
+    private void initData(){
+        presenter = new ${presenterClass}(this);
     }
 
     @Override
-    protected void setupComponent(@NonNull AppComponent parentComponent) 
-    {
-        Dagger${componentClass}.builder()
-            .appComponent(parentComponent)
-            .${moduleClass?uncap_first}(new ${moduleClass}(this))
-            .build()
-            .inject(this);
+    protected void onDestroy() {
+        presenter.destroy();
+        super.onDestroy();
     }
 
-    @Override
-    protected BasePresenter getBasePresenter() 
-    {
-        return mPresenter;
-    }  
 }
